@@ -15,4 +15,4 @@ module SuckerPunch
   end
 end
 
-require 'sucker_punch/railtie' if defined?(::Rails)
+require 'sucker_punch/railtie' if defined?(::Rails::Engine)
